@@ -1,0 +1,14 @@
+{
+  "name": "express-static-web-server",
+  "version": "1.0.0",
+  "description": "Express Static Web Server",
+  "main": "index.js",
+  "author": "George Softas",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "scripts": {
+	  "start": "node server/index.js"
+  }
+}
