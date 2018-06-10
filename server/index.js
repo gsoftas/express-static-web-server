@@ -7,7 +7,7 @@ const app = express();
 app.set('port', 8080);
 
 // Use Express to serve the static assets
-app.use(express.static(path.join(__dirname, './static')));
+app.use(express.static(path.join(__dirname, '../static')));
 
 // Start the server 
 const server = app.listen(app.get('port'), function() {
